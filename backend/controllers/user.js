@@ -21,8 +21,8 @@ export const createUser = async (req, res) => {
 
         let otp = await sendSms(req.body.country_code,req.body.mobile_number);
 
-        let URL = 'https://safexchat-stellar.herokuapp.com/account';
-        //let URL = 'http://localhost:4000/account';
+        //let URL = 'https://safexchat-stellar.herokuapp.com/account';
+        let URL = 'http://localhost:4000/account';
     axios.post(URL)
     .then((body) => {
         // console.log('====> '+body.data.toString())
