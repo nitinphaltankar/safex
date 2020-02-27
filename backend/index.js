@@ -31,9 +31,9 @@ const adminRouter = require('./routes/v1/admin');
 app.use('/admin/v1', adminRouter);
 
 // app config
-// app.listen(ENV.port, () => {
-//     console.log(`Server running at http://${ENV.hostname}:${ENV.port}/`);
-// });
+app.listen(ENV.port, () => {
+    console.log(`Server running at http://${ENV.hostname}:${ENV.port}/`);
+});
 
-const port = process.env.PORT || 3000;
-app.listen(port, () => console.log(`Server is listening on port: ${port}`));
+// const port = process.env.PORT || 3000;
+// app.listen(port, () => console.log(`Server is listening on port: ${port}`));
