@@ -10,8 +10,8 @@ const MessagingResponse = require('twilio').twiml.MessagingResponse;
 const app = express();
 
 //db connection
-//const url = 'mongodb://localhost:27017/WhatsappClone';
-const url = 'mongodb://admin:dLlJ6W2CwlrGUpDP@SG-WhatsappClone-30224.servers.mongodirector.com:27017/admin';
+export const mongoDbUrl = 'mongodb://localhost:27017/safexdb';
+//const url = 'mongodb://admin:dLlJ6W2CwlrGUpDP@SG-WhatsappClone-30224.servers.mongodirector.com:27017/admin';
 
 mongoose.connect(url, { useNewUrlParser: true }); 
 

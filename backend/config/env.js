@@ -1,7 +1,7 @@
 // config variables 
-//export const mongoDbUrl = 'mongodb://localhost:27017/WhatsappClone';
+export const mongoDbUrl = 'mongodb://localhost:27017/safexdb';
 //export const mongoDbUrl = 'mongodb://admin:dLlJ6W2CwlrGUpDP@SG-WhatsappClone-30224.servers.mongodirector.com:27017/admin';
-export const mongoDbUrl = 'mongodb://admin:dLlJ6W2CwlrGUpDP@SG-WhatsappClone-30224.servers.mongodirector.com:27017/admin';
+//export const mongoDbUrl = 'mongodb://admin:dLlJ6W2CwlrGUpDP@SG-WhatsappClone-30224.servers.mongodirector.com:27017/admin';
 export const hostname = '127.0.0.1';
 export const port = 8080;
 
